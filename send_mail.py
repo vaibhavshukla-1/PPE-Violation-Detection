@@ -190,8 +190,9 @@ if __name__ == '__main__':
     # Uncomment the following lines to run the code locally
     # set sender and recipient accordingly
     # sender must be a gmail account using which you have enabled the gmail API
-    '''prepare_and_send_email(sender='support.ai@giindia.com', 
-                           recipient='anubhavpatrick@gmail.com',
+    #add sender's and receiver's mail id
+    '''prepare_and_send_email(sender='', 
+                           recipient='',
                            subject= 'Greeting from Global Infoventures', 
                            message_text= 'Hello, this is a test email from Global Infoventures',
                            im0= cv2.imread('test.jpg'))'''
